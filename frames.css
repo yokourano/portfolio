@@ -1,0 +1,97 @@
+h1 {
+  font-family: sans-serif;
+  font-size: 1.3em;
+  font-weight: 700;
+  color:inherit;
+  text-align: center;
+  margin: 40px;
+}
+
+#art_topnav {
+  display:flex;
+  position:fixed;
+  top:20px;
+  left:20px;
+}
+
+#psych_topnav {
+  display:flex;
+  position:fixed;
+  top:20px;
+  right:20px;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+a:hover {
+  opacity:0.7;
+}
+
+a:visited {
+  text-decoration: none;
+  color:inherit;
+}
+
+.navlink {
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 1.0em;
+  color:inherit;
+  margin: 10px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top:60px;
+  padding-bottom:30px;
+}
+
+.blob{
+  height:70vh;
+}
+
+.glass{
+  height:70vh;
+}
+
+.zoomedblob {
+  height: 60vh;
+}
+
+#poster1 {
+  height:70vh;
+}
+
+#poster2 {
+  width:80vw;
+}
+
+#poster3 {
+  height:70vh;
+}
+
+.research {
+  padding-top: 30px;
+  font-family: serif;
+  color:inherit;
+  margin-left:60px;
+  font-weight: 500;
+  width:80vw;
+}
+
+h2 {
+  margin-bottom: 20px;
+  margin-top: 40px;
+  font-weight: inherit;
+  font-size: 1.2em;
+}
+
+.info {
+  margin-top:-0.5em;
+  opacity:0.7;
+  font-size:0.9em;
+}
